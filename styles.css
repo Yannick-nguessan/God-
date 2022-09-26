@@ -18,7 +18,7 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 7rem;
+  font-size: 6rem;
   color: #4ECCA3;
 }
 span{
@@ -47,9 +47,25 @@ footer {
 
 }
 
-@media  (max-width: 570px ){
+@media  (max-width: 777px ){
 
   h1{
     font-size:4rem;
   }
+  img{
+    width: 70%;
+  }
+  
+.row{
+  display: flex;
+}
+
+.dice {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 }

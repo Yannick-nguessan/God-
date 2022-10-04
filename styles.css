@@ -9,6 +9,11 @@
   display: inline-block;
 
 }
+.btn{
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+}
 
 body {
   background-color: #393E46;
@@ -50,7 +55,8 @@ footer {
 @media  (max-width: 777px ){
 
   h1{
-    font-size:3.6rem;
+    font-size:3rem;
+    margin-bottom: 40px;
   }
   img{
     width: 70%;

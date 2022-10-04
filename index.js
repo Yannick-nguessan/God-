@@ -1,5 +1,5 @@
 
-
+var i=0;
 
 $("button").click(function(){
  
@@ -38,11 +38,17 @@ function launch(){
         document.querySelector("h1").innerHTML=" Player 2 WIN 🚩" ;
     }
     
-    setTimeout (function(){
+   i++;
+}
+if (i<=2){
+
+ setTimeout (function(){
         $("h1").slideDown().fadeOut(1).fadeIn(100);
         $("h1").text("Press Launch to start the game")
         $("img").attr("src","images/dice6.png");
       
        },3500);
-}
+
+};
+
 
